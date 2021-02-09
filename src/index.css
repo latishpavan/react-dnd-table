@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.row {
+  border: 1px solid black;
+  padding-bottom: 5px;
+}
+
+.table {
+  width: 50%;
+  margin: 50px;
+}
+
+.drag {
+  cursor: move;
+}
+
+.dragging {
+  background-color: #ffffff;
+  z-index: 999;
+  border: 2px solid black;
+}
+
+.placeholder {
+  background-color: lightgray;
+  border: dashed 1px black;
+  color: lightgray;
+}
